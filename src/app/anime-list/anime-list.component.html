@@ -1,0 +1,11 @@
+<p>anime-list works!</p>
+<div class="anime-list" *ngIf="animes.length">
+    <mat-card *ngFor="let anime of animes">
+      <mat-card-title>{{ anime.name }}</mat-card-title>
+      <mat-card-content>
+        <p>Nota: {{ anime.rating }}</p>
+        <button mat-raised-button color="primary" (click)="rateAnime(anime)">Avaliar</button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

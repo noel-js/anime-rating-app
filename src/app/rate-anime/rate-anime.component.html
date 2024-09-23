@@ -1,0 +1,7 @@
+<p>rate-anime works!</p>
+<h2>Avaliar {{ anime.name }}</h2>
+<mat-form-field>
+  <mat-label>Nota</mat-label>
+  <input matInput type="number" [(ngModel)]="rating" min="0" max="10">
+</mat-form-field>
+<button mat-raised-button color="primary" (click)="submitRating()">Enviar</button>

@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Estilos globais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  mat-card {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .anime-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    mat-card {
+      width: 90%;
+    }
+  }
+  

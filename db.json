@@ -1,0 +1,7 @@
+{
+  "animes": [
+    { "id": 1, "name": "Naruto", "rating": 8 },
+    { "id": 2, "name": "Attack on Titan", "rating": 9 },
+    { "id": 3, "name": "One Piece", "rating": 7 }
+  ]
+}
